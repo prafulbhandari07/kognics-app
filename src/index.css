@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#parentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ccdd7;
+  width: 100vw;
+  height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 4px 4px 22px 8px rgba(0, 0, 0, .02);
+  height: 350px;
+  width: 300px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.svgContainer {
+  margin-top: 30px;
+  width: 200px;
+  height: 80px;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  margin: 0%;
+  padding: 10px;
+  padding-left: 0%;
+}
+
+.inputInfo {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  width: 200px;
+  height: 50px;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 40px;
+}
+
+.about-header {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(310deg, rgb(108, 100, 255), rgb(82, 222, 72), rgb(223, 93, 93));
+
+}
+
+.notFoundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.notFoundContainer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 50px;
+  width: 500px;
+  color: rgb(255, 0, 0);
+  font-style: italic;
+  box-shadow: 7px 7px 7px 5px black;
+}
